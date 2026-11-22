@@ -1,0 +1,82 @@
+*{
+	padding:0; margin:0;
+}
+
+
+body{
+	margin: 0; padding: 0;
+	widht: 100%;
+}
+
+.main-head{
+	grid-area: header;
+	background: #0B3B2C;
+	padding: .8em 3em;
+}
+
+.main-head img{
+	width: 10%;
+}
+
+.content{
+	grid-area: content;
+	height: 300px;
+	background-image: url(.\\images\\banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; /*remplir le contenur même s'il faut rogner l'image*/
+	background-color: #00000044; /*Donner une couleur grise au conteneur*/
+	background-blend-mode: darken; /*assombrir l'image par composition avec la couleur*/
+
+}
+
+.context, .pich{
+	margin-left: 3em;
+}
+
+.main-navbar{
+	grid-area: nav;
+}
+
+.options{
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	gap: 2%;
+}
+
+.options li{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.optionforme{
+	width: 200px;
+	height: 200px;
+	background: orange;
+}
+
+.optionBouton{
+	width: 200px;
+	height: 50px;
+	background-color: black;
+	text-align: center;
+}
+
+
+.main-footer{
+	grid-area: footer;
+}
+
+.wrapper{
+	display: grid;
+	gap: 20px;
+	grid-template-areas:
+		'header'
+		'content'
+		'nav'
+		'footer';
+}
+
+

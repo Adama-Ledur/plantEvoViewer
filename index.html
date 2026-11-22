@@ -4,45 +4,49 @@
 		<title>PlantEvoViewer</title>
 		<meta name="viewport" content="width=device-width initial-scale=1">
 		<meta charset="UTF-8">
-		<link rel=stylesheet href="style.css">
+		<link rel=stylesheet href=".\\styles\style.css">
 	</head>
 	<body>
-		<header>
-			<img src="..\images\pev-logotype.webp" alt="logoPlantEvoViewer" id="logo">
-		</header>
-		<main>
-			<p class="speech">
-				Les plantes n’ont pas toujours évoluées dans le milieu terrestre. Pour cela, elles ont due s’adapter progressivement aux nombreuses contraintes environnementales,
-			</p>
-			<nav class="navbar">
-				<div class="option">
-					<div class= "optionCercle"></div>
-					<a class="option-bouton">Algues</a>
-				</div>
-				<div class="option">
-					<div class= "optionCercle"></div>
-					<a class="option-bouton">Mousses</a>
-				</div>
-				<div class="option">
-					<div class= "optionCercle"></div>
-					<a class="option-bouton">Fougères</a>
-				</div>
-				<div class="option">
-					<div class= "optionCercle"></div>
-					<a class="option-bouton">Conifères</a>
-				</div>
-				<div class="option">
-					<div class= "optionCercle"></div>
-					<a class="option-bouton">Graminées</a>
-				</div>
-				<div class="option">
-					<div class= "optionCercle"></div>
-					<a class="option-bouton">Dicotylédone</a>
-				</div>
-			</nav>
-		</main>
-		<footer>
+		<div class="wrapper">
+			<header class="main-head">
+					<img src=".\images\logo-plantevo.webp" alt="logoPlantEvoViewer">
+			</header>
 
-		</footer>
+			<div class="content">
+				<h1 class="pich">Origine et évolution des plantes</h1>
+				<p class="context">
+					La terre n'a pas toujours été verdoyante. Pour cela, elles ont due s’adapter progressivement aux nombreuses contraintes environnementales,
+				</p>
+			</div>
+			<nav class="main-nav">
+				<ul class="options">
+					<li>
+						<div class= "optionforme"></div>
+						<a href=".\algues.html" class="optionBouton">Algues</a>
+					</li>
+					<li>
+						<div class= "optionforme"></div>
+						<a href=".\mousses.html" class="optionBouton">Mousses</a>
+					</li>
+					<li>
+						<div class= "optionforme"></div>
+						<a href=".\fougeres.html" class="optionBouton">Fougères</a>
+					</li>
+					<li>
+						<div class= "optionforme"></div>
+						<a href=".\coniferes.html" class="optionBouton">Conifères</a>
+					</li>
+					<li>
+						<div class= "optionforme"></div>
+						<a href=".\graminees.html" class="optionBouton">Graminées</a>
+					</li>
+					<li>
+						<div class= "optionforme"></div>
+						<a href=".\dicotyledones.html" class="optionBouton">Dicotylédones</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<footer class="main-footer"></footer>
 	</body>
 </html>
