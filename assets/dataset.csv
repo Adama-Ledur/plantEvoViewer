@@ -1,0 +1,7 @@
+﻿Identifiant du point;Groupe de végétaux;latitude;longitude;precision_m;Espèce;humidité;exposition;support;;;;;;;;;;;
+P1;Dicotylédones;6.891987;-5.226237;10.7;Megathyrsus sp;Humide;Soleil;Sol;;;;;;;;;;;
+P2;Graminées;6.89166;-5.225922;10.7;Panicum sp;Sec;Ombre;Sol;;;;;;;;;;;
+P3;Algues;6.891268;-5.225675;11;inconnue;Humide;Soleil;Eau;;;;;;;;;;;
+P4;Mousses;6.890923;-5.225735;8.5;inconnue;Humide;Ombre;Tronc;;;;;;;;;;;
+P5;Fougères;6.890856;-5.225748;12.2;Nephrolepsis sp;Humide;Ombre;Tronc;;;;;;;;;;;
+P7;Gymnospermes;6.891322;-5.224533;10.6;inconnue;Sec;Soleil;Sol;;;;;;;;;;;

@@ -14,6 +14,10 @@ body{
 	padding: .8em 3em;
 }
 
+.main-body ul{
+	list-style: none;
+}
+
 .main-head img{
 	width: 10%;
 }

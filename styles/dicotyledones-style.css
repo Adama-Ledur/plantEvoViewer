@@ -1,0 +1,52 @@
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+}
+
+.top-nav{
+	grid-area: top;
+	text-align: center;
+	background-image: url(.\\images\\coniferes-banner.jpg);
+	padding: 3em;
+}
+
+.top-nav-option{
+	display: flex;
+	justify-content: space-between;
+}
+
+.side-nav{
+	grid-area: side;
+	padding: 2em;
+	background-color: #0B3B2C;
+	height: 100vh;
+	}
+
+.side-nav img{
+	width: 40%;
+}
+
+.main-body{
+	padding: 3em;
+	grid-area: main;
+	margin-left: 1%;
+}
+
+
+.wrapper{
+	display: grid;
+	grid-template-areas:
+		"side top  top"
+		"side main main"
+		"side main main";
+}
+
+.search-button{
+	width: 13px;
+	height: 13px;
+}
