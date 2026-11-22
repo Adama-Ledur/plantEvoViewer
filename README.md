@@ -26,7 +26,10 @@ plantEvo/
 └── assets/
     ├── dataset.csv                   points relevés sur le terrain
     ├── zone-dechantillonnage.qgz     projet QGIS de la zone d'étude
-    └── Photo de terrain/             photos classées par groupe de plantes
+    ├── Photo de terrain/             photos classées par groupe de plantes
+    └── Rapports/
+        ├── Rapport_SIG_PlantEvo.odt
+        └── Rapport_TP_PlantEvo.odt
 ```
 
 ## Les données de terrain
@@ -37,3 +40,13 @@ Les photos prises sur place sont dans `assets/Photo de terrain/`, et la carte de
 ## Outils utilisés
 
 HTML, CSS, Git, QGIS (pour la carte), Figma (pour la maquette).
+
+## DESIGN FIGMA
+*NB: Design inachévé*<br>
+<https://www.figma.com/design/VrveYFoDuGGxFGvqJEkt1E/Sans-titre?node-id=0-1\&p=f\&t=7PMPAMyR7h4h6F84-0>
+
+## DIFFICULTES
+
+* gestion du temps avec les cours, les exercies, et le brief projet
+* manque de pratique avec CSS
+
